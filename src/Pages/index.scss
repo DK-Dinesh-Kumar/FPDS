@@ -1,0 +1,109 @@
+.form-div {
+  display: flex;
+  flex-direction: column;
+  input:focus {
+    -moz-box-shadow: 0 0 10px 5px #add8e6;
+    -webkit-box-shadow: 0 0 10px 5px #add8e6;
+    box-shadow: 0 0 10px 5px #add8e6;
+  }
+}
+.ChangePasswordContainer {
+  width: 50%;
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .ChangePasswordContainer {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ChangePasswordContainer {
+    width: 75%;
+  }
+}
+.MuiFormControlLabel-root {
+  margin-right: 0 !important;
+}
+.ChangePasswordRow {
+  margin: 10px 0;
+}
+
+.rosterRow li .MuiFormControlLabel-root {
+  margin-left: 0 !important;
+}
+
+.HeaderInputDate {
+  width: 120px;
+  height: 24px;
+  font-size: 12px !important;
+  margin: 3px 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.PadItem {
+  margin: 0px 16px 0px 2px;
+}
+.edocsCenter,
+.infoNotice,
+.rosterRow,
+.webLinks {
+  li {
+    text-align: left;
+  }
+}
+
+.reportsCenter {
+  li {
+    text-align: left;
+    list-style: square;
+  }
+}
+.content-list {
+  li {
+    padding: 10px 0 0 15px;
+    border-bottom: 2px dotted #ddd;
+    position: relative;
+    color: grey;
+    text-align: left;
+  }
+}
+.mainColumn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mainRow {
+  background-color: #19599e;
+  width: 100%;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.removeIconDiv {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  margin-right: 10px;
+  div {
+    width: 10px;
+    height: 2px;
+    background-color: white;
+  }
+}
+.mainPageTableStyle {
+  border: 1px solid grey;
+  margin: 10px;
+}
+.over-all-align {
+  width: 100%;
+  display: flex;
+  // column-gap: 10px;
+}
+@media screen and (max-width: 650px) {
+  .over-all-align {
+    flex-direction: column;
+  }
+}
