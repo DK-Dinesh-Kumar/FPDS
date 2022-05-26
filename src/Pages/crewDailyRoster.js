@@ -60,7 +60,7 @@ const CrewDailyRoster = () => {
     <div
       style={{ display: "flex", columnGap: "10px", flexDirection: "column" }}
     >
-      <Row style={{ width: "100%", backgroundColor: "#365e9e", padding:"5px" }}>
+      <Row style={{ width: "100%", backgroundColor: "#365e9e", padding:"5px 0" }}>
         <Label
           style={{
             fontSize: "15px",

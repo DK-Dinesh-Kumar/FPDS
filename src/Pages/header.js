@@ -25,7 +25,6 @@ const Header = () => {
           display: "flex",
           justifyContent: "space-between",
           flexWrap: "wrap",
-          padding: "5px",
         }}
       >
         {location.pathname !== "/Home/ChangePassword" ? (
